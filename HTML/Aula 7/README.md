@@ -1,1 +1,1 @@
-<a>link</a>
+<a href="https://marlissonls.github.io/Front-end/HTML/Aula%207/index.html">LINK DA PÁGINA ESTÁTICA PUBLICADA</a>
