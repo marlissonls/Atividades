@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Governo Bolsonaro | Pesquisa</title>
+        <meta property="og:title" content="Pesquisa de Aprovaçao do Governo Bolsonaro" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:description" content="Pessoas maiores de 16 anos que moram no Brasil estão aptas a responder a esta pesquisa." />
+    </head>
+    <style>
+        body{
+            background-color: #beebfc;
+            width: 950px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        img.displayed{
+            width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div{
+            padding: 30px;
+            background-color:white;
+            border-radius: 10px;
+        }
+        #mail, #sexo, #idade, #etnia, #renda, #estado, #politica, #ideologia{
+            width: 300px;
+        }
+        button{
+            border: none;
+            background-color: #1888d7;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+    <body>
+        <div>
+            <h2>PESQUISA DE SATISFAÇÃO DOS 4 ANOS DE GOVERNO BOLSONARISTA</h2>
+            <p>Pessoas maiores de 16 anos que moram no Brasil estão aptas a responder a esta pesquisa.</p>
+            
+            <img class="displayed" src="image/image.jpg" alt="Presidente Jair Bolsonaro fazendo discurso." />
+            <br><br>
+            
+            <form action="/data-form" method="post">
+                <fieldset>
+                    <legend><strong>DADOS DEMOGRÁFICOS</strong></legend>
+
+                    <label for="mail">Seu email:</label><br>
+                    <input type="email" id="mail" required><br><br>
+
+                    <label for="sexo">Seu sexo:</label><br>
+                    <select name="sexo" id="sexo" required>
+                        <option value=""></option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                    <br><br>
+
+                    <label for="idade">Sua idade:</label><br>
+                    <input type="number" id="idade" min="16" required>
+                    <br><br>
+
+                    <label for="etnia">Sua etnia:</label><br>
+                    <select name="etnia" id="etnia" required>
+                        <option value=""></option>
+                        <option value="branco">Branco</option>
+                        <option value="indigena">Indígena</option>
+                        <option value="negro">Negro</option>
+                        <option value="pardo">Pardo</option>
+                    </select>
+                    <br><br>
+
+                    <label for="renda">Sua renda <em>per capita</em> familiar:</label><br>
+                    <select name="renda" id="renda" required>
+                        <option value=""></option>
+                        <option value="atemil">até R$ 1.000,00</option>
+                        <option value="atedoismil">até R$ 2.000,00</option>
+                        <option value="atetresmil">até R$ 3.000,00</option>
+                        <option value="maisdetremil">maior que R$ 3.000,00</option>
+                    </select>
+                    <br><br>
+
+                    <label for="estado">Estado:</label><br>
+                    <select id="estado" name="estado" required>
+                        <option value=""></option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                    <br><br>
+
+                    <label for="politica">Sua preferência política:</label><br>
+                    <select name="politica" id="politica" required>
+                        <option value=""></option>
+                        <option value="direita">Direita</option>
+                        <option value="esquerda">Esquerda</option>
+                        <option value="neutro">Não sei</option>
+                    </select>
+                    <br><br>
+
+                    <label for="ideologia">Você se considera:</label><br>
+                    <select name="ideologia" id="ideologia" required>
+                        <option value=""></option>
+                        <option value="conservador">Conservador</option>
+                        <option value="liberal">Liberal</option>
+                        <option value="progressista">Progressista</option>
+                        <option value="reacionario">Reacionário</option>
+                        <option value="neutro">Não sei</option>
+                    </select>
+                    <br><br>
+                </fieldset>
+                <br><br>
+                
+                <fieldset>
+                    <legend><strong>QUESTIONÁRIO</strong></legend>
+                    <P>Você acha que o governo do presidente Jair Bolsonaro nesses quase 4 anos foi:</P>
+                    
+                    <input type="radio" name="satisfacao" id="otimo" value="otimo" required>
+                    <label for="otimo">Ótimo</label>
+                    <br><br>
+
+                    <input type="radio" name="satisfacao" id="bom" value="bom" required>
+                    <label for="bom">Bom</label>
+                    <br><br>
+
+                    <input type="radio" name="satisfacao" id="regular" value="regular" required>
+                    <label for="regular">Regular</label>
+                    <br><br>
+
+                    <input type="radio" name="satisfacao" id="ruim" value="ruim" required>
+                    <label for="ruim">Ruim</label>
+                    <br><br>
+
+                    <input type="radio" name="satisfacao" id="pessimo" value="pessimo" required>
+                    <label for="pessimo">Péssimo</label>
+                    <br><br>
+
+                    <input type="radio" name="satisfacao" id="neutro" value="neutro" required>
+                    <label for="neutro">Não sei</label>
+                    <br><br>
+
+                    <P>Você aprova a forma de governar do presidente Jair Bolsonaro:</P>
+                    
+                    <input type="radio" name="aprovacao" id="aprovo" value="aprovo" required>
+                    <label for="aprovo">Aprovo</label>
+                    <br><br>
+
+                    <input type="radio" name="aprovacao" id="desaprovo" value="desaprovo" required>
+                    <label for="desaprovo">Desaprovo</label>
+                    <br><br>
+
+                    <input type="radio" name="aprovacao" id="naosei" value="naosei" required>
+                    <label for="naosei">Não sei</label>
+                    <br><br>
+                    
+                    <P>Você confia no presidente Jair Bolsonaro:</P>
+                    
+                    <input type="radio" name="confianca" id="confio" value="confio" required>
+                    <label for="confio">Confio</label>
+                    <br><br>
+
+                    <input type="radio" name="confianca" id="naoconfio" value="naoconfio" required>
+                    <label for="naoconfio">Não confio</label>
+                    <br><br>
+
+                    <input type="radio" name="confianca" id="seinao" value="seinao" required>
+                    <label for="seinao">Não sei</label>
+                    <br><br>
+                </fieldset>
+                <br>
+                <button type="reset">Limpar Formulário</button>
+                <button type="submit">Enviar Resposta</button>
+            </form>
+        </div>        
+    </body>
+</html>
