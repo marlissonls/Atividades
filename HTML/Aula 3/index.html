@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8 /">
+        <title>Aula 3 - HTML</title>
+    </head>
+    <body>
+        <h1>HTML E FORMATA&Ccedil;&Otilde;ES DE TEXTOS E IMAGENS</h1>
+        <h3 style="color:#909090"><i>Terça-feira, 27 de abril de 2022</i></h3>
+        <br/>
+        <p>No post anterior anterior aprendemos sobre a linguagem HTML e suas principais tags. Neste post, iremos aprender sobre formata&ccedil;&atilde;o
+            e estiliza&ccedil;&atilde;o de texto nas p&aacute;ginas da internet.
+        </p>
+        <hr/>
+        <p>
+            Há 4 tags de formata&ccedil;&atilde;o básica que são o &lt;i&gt;, &lt;em&gt;, &lt;b&gt; e o &lt;strong&gt;.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    O <b>&lt;i&gt;</b> é utilizado para designar um texto de destaque diferenciado, como em termos especiais ou uso em taxonomia.<br/><br>
+                    EXEMPLO:<br><br>
+                    Código: A arvore, de nome em latin <b>&lt;i&gt;</b>Araucária brasiliensis<b>&lt;/i&gt;</b>.<br/>
+                    Saída: A arvore, de nome em latin <i>Araucária brasiliensis</i>.
+                </p>  
+            </li>
+            <li>
+                <p>
+                    O <b>&lt;em&gt;</b> é utilizado para dar ênfase em uma palavra (ou frase) que você falaria com entonação diferenciada do resto do texto e que mudaria seu significado.<br/><br>
+                    EXEMPLO:<br><br>
+                    Código: E ela jura que <b>&lt;em&gt;</b>não<b>&lt;/em&gt;</b> sabe, não é mesmo?!<br/>
+                    Saída: E ela jura que <em>não</em> sabe, não é mesmo?!.
+                </p>
+            </li>
+            <li>
+                <p>
+                    O <b>&lt;b&gt;</b> é direcionado a textos que necessitem ter destaque, mas sem conotação ou explicação explícita.<br/><br>
+                    EXEMPLO:<br><br>
+                    Código: O e-mail dela é <b>&lt;b&gt;</b>fulana@email.com<b>&lt;/b&gt;</b>.<br/>
+                    Saída: O e-mail dela é <b>fulana@email.com</b>.
+                </p>  
+            </li>
+            <li>
+                <p>
+                    O <b>&lt;strong&gt;</b> é utilizado para dar ênfase a uma palavra ou frase de alta importância.<br/><br>
+                    EXEMPLO:<br><br>
+                    Código: Pessoal, eu realmente preciso destes relatórios <b>&lt;strong&gt;</b>para amanhã sem falta<b>&lt;/strong&gt;</b>!<br/>
+                    Saída: Pessoal, eu realmente preciso destes relatórios <strong>para amanhã sem falta</strong>!
+                </p>
+            </li>
+        </ul>
+        <p>
+            Como pudemos observar, apesar de cada uma das tags terem uma situação específica para serem inseridas, as tags
+            <b>&lt;i&gt;</b> e <b>&lt;em&gt;</b> são equivalentes entre si, assim como, as tags <b>&lt;b&gt;</b> e <b>&lt;strong&gt;</b> 
+            também são equivalentes entre si.
+        </p>
+        <br>
+        <hr>
+        <br>
+        <p>
+            Há também a estilização por cores de palavras, textos ou parágrafos. Essa edição pode ser realizada pelo uso do atributo
+            <b><i>style</i></b> nas tags de textos e títulos da seguinte forma: &lt;p style="color:red"&gt;<span style="color:red">texto</span>&lt;/p&gt; ou <br>
+            &lt;span style="color:red"&gt;<span style="color:red">texto</span>&lt;/span&gt;
+            .Exemplificando:<br>
+        </p>
+        <ul>
+            <li>
+                <p style="color:rgb(255,0,0)"><b>VERMELHO</b></p>
+            </li>
+            <li>
+                <p style="color:rgb(0, 0, 255)"><b>AZUL</b></p>
+            </li>
+            <li>
+                <p style="color:rgb(255, 255, 0)"><b>AMARELO</b></p>
+            </li>
+            <li>
+                <p style="color:rgb(255, 0, 255)"><b>ROSA</b></p>
+            </li>
+            <li>
+                <p style="color:rgb(0, 0, 0)"><b>PRETO</b></p>
+            </li>
+        </ul>
+        <p>
+            Além da cor, é possível alterar vários parâmetros textuais através do atributo <b><i>style</i></b> como o estilo e tamanho da fonte, por exemplo.
+        </p>
+        <br>
+        <hr>
+        <br>
+        <p>
+            Também é possível formatar textos e imagens com links para outras páginas da web. Exemplificando:
+        </p>
+        <br>
+        <ul>
+            <li>
+                <p>Acesse o youtube através do link de texto <a href="https://www.youtube.com"><b>YOUTUBE</b></a></p>
+            </li>
+            <li>
+                <p>Ou Acesse o youtube através da imagem com link abaixo<br><br>
+                    <a href="https://www.youtube.com">
+                    <img style="height: 100px; width: 400px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png" alt="Youtube">
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>Também é possível a formatar um link para abrir uma imagem em uma nova guia. Clique na logo da Alpha Lumen para continuar<br><br>
+                    <a href="https://alphalumen.org.br/wp-content/uploads/2020/05/alphalumen-internacional-1024x538.png" target="_blank">
+                    <img style="height: 150px; width: 270px;" src="https://alphalumen.org.br/wp-content/uploads/2020/05/alphalumen-internacional-1024x538.png" alt="Alpha Lumen">
+                    </a>
+                </p>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+        <p>Neste tópico iremos demonstrar uma tabela de 4 linhas e 3 colunas</p>
+        <p>É possivel criar uma tabela com a tag <b><i>table</i></b> e com as tags <b><i>tr</i></b> e
+            <b><i>th</i></b> são criadas as linhas e colunas:<br>
+        </p>
+        <center>
+            <table>
+                <tr>
+                    <th>NOTAS</th>
+                    <th>1ª AVALIAÇÃO</th>
+                    <th>2ª AVALIAÇÃO</th>
+                </tr>
+                <tr>
+                    <td>André</td>
+                    <td><center>9.5</center></td>
+                    <td><center>8.2</center></td>
+                </tr>
+                <tr>
+                    <td>Joana</td>
+                    <td><center>10.0</center></td>
+                    <td><center>7.0</center></td>
+                </tr>
+                <tr>
+                    <td>Marcel</td>
+                    <td><center>6.5</center></td>
+                    <td><center>9.5</center></td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <p>
+            Para finalizarmos esse post, vamos ver agora o uso de comentários nos códigos html. Eles não podem ser vistos nas páginas
+            da web pois são de utilidade dos desenvolvedores. Logo abaixo dessa linha no código deste documento há um comentário,
+            se quiser vê-lo abra o código-fonte dessa página. ele se encontra na linha de código 154.
+        </p>
+        <br>
+        <!--esta linha de código esta escrita como um comentário e por isso não aparecerá na página web-->
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div>
+            <img style="height: 110px; width: 100px; border-radius: 3%;" src="https://edtech-uploads.s3.amazonaws.com/uploads/photos/sTRBr1229202112374361cc80c7aadf0.png" alt="scytar">
+          </div>
+          <span> Autor: Marlisson Lopes da Silva </span>    
+
+    </body>
+</html>
