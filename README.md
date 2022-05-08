@@ -1,3 +1,5 @@
+# See this repository pages <a href="https://marlissonls.github.io/Front-end/" target="_blank">CLICK HERE</a>
+
 # How to push in a new brach:
 ```
 1   git clone "repositoryurl.git"
@@ -14,7 +16,7 @@
 9   git push origin -d "newbranchname" (git push origin --delete "newbranchname")
 10  git branch -d "newbranchname"
 ```
-# $To see the branch's graph:
+# To see the branch's graph:
 ```
 11  git log --graph --pretty=oneline
 ```
