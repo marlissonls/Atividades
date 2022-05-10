@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>IMERSÃO CSS</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            #internal {
+                color: green;
+            }
+
+            #internal2 {
+                color: green;
+            }
+            #internal3 {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><em>Nesta página, vamos exemplificar o uso do CSS nas forma básicas: Inline, Internal e External</em></h2>
+        <p>1. Nos 3 ítens abaixo foram aplicados estilos de cor. Cada estilo foi aplicado segundo a própria legenda:</p>
+        <ul>
+            <li style="color: red">Inline, usando o atributo style="red" na tag &ltli&gt.</li>
+            <li id="internal">Internal, através do atributo id="internal" e usando a tag &ltstyle&gt.</li>
+            <li class="external">External, através do atributo id="external" e usando a tag &ltlink&gt que anexou o arquivo <a href="./style.css">style.css</a>.</li>
+        </ul>
+        <br>
+        <p>2. No ítem abaixo serão aplicadas as cores red, green e blue cada uma delas em uma das 3 formas de aplicação 
+            de CSS (Inline, Internal e External, respectivamente) para se verificar a prioridade de aplicação dessas 3 formas de aplicação. 
+        </p>
+        <ul>
+            <li style="color: red" id="internal2" class="external2">um elemento de texto</li>
+        </ul>
+        <p>Como esperado, a forma Inline teve prioridade sobre as formas Internal e External</p>
+        <br>
+        <p>3. No ítem abaixo serão aplicadas as cores green e blue nas formas de aplicação Internal e External, respectivamente,
+            para se verificar a prioridade de aplicação dessas 2 formas de aplicação.
+        </p>
+        <ul>
+            <li id="internal3" class="external3">um elemento de texto</li>
+        </ul>
+        <p>Como esperado, a forma Internal teve prioridade sobre a forma External</p>
+    </body>
+</html>
