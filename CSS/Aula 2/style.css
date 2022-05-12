@@ -1,0 +1,37 @@
+#firstitem {
+    color:blueviolet;
+}
+
+.seconditem {
+    color:chartreuse;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:cyan;
+}
+
+p[data^="inicio"] {
+    color: red;
+}
+
+#pseudo::before {
+    content:"conjunto das palavras escritas, em livro, folheto, documento etc. (p.opos. a comentários, aditamentos, sumário etc.); redação original de qualquer obra escrita.";
+    color:yellow;
+}
+
+#pseudo::after {
+    content: "Lorem ipsum dolor sit amet. Qui aliquam voluptas et repudiandae adipisci rem maxime quod ut";
+    color: blue;
+}
+
+p+span {
+    font-size: 25px;
+    color: pink;
+}
+
+
+
