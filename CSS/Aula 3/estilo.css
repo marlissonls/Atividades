@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.visible{
+    overflow: visible;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.auto{
+    overflow: auto;
+}
+
+p{
+    display: inline-flex;
+    border: 1px solid red;
+    height: 150px;
+    width: 100px;
+    margin:10px 120px;
+}
