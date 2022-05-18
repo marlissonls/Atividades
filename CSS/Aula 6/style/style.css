@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom: solid 3px lightgrey;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h3 {
+    margin: 15px;
+}
+
+#medio {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+#socialnetlist {
+    width: 20%;
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border: solid 3px lightgrey;
+    border-radius: 15px;
+}
+
+article {
+    width: 80%;
+    background-color: white;
+    margin: 40px;
+    margin-left: 0;
+    padding: 20px;
+    border: solid 3px lightgrey;
+    border-radius: 15px; 
+}
+
+article h2 {
+    margin-bottom:40px;
+}
+
+article p {
+    margin-bottom:40px;
+    text-align: justify;
+}
+
+#allerwoff {
+    font-family: 'allerregular';
+    font-size: 20px;
+}
+
+#macondofont {
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+}
+
+li {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul#google {
+    list-style: disc;
+
+}
+
+ul#youtube {
+    list-style: circle;
+}
+
+ul#facebook {
+    list-style: square;
+}
+
+ul#instagram {
+    list-style: none;
+}
+
+ul#twitter {
+    list-style: disc;
+}
+
+ul#tiktok {
+    list-style: circle;
+}
+
+ul#pinterest {
+    list-style: square;
+}
+
+ul#linkedin {
+    list-style: none;
+}
+
+ul#github {
+    list-style: disc;
+}
+
+/*LINKS GOOGLE INICI0*/
+#google li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#google li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#google li a:focus {
+    color: violet;
+    text-decoration: none;
+}
+
+#google li a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+#google li a:visited {
+    color: black;
+    text-decoration: none;
+}
+/*LINKS GOOGLE FIM*/
+
+/*LINKS YOUTUBE INICI0*/
+#youtube li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#youtube li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#youtube li a:focus {
+    color: violet;
+    text-decoration: none;
+}
+
+#youtube li a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+#youtube li a:visited {
+    color: black;
+    text-decoration: none;
+}
+/*LINKS YOUTUBE FIM*/
+
+/*LINKS FACEBOOK INICI0*/
+#facebook li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#facebook li a:hover {
+    color: red;
+}
+
+#facebook li a:focus {
+    color: violet;
+}
+
+#facebook li a:active {
+    color: yellow;
+}
+
+#facebook li a:visited {
+    color: black;
+}
+/*LINKS FACEBOOK FIM*/
+
+/*LINKS INSTAGRAM INICI0*/
+#instagram li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#instagram li a:hover {
+    color: red;
+}
+
+#instagram li a:focus {
+    color: violet;
+}
+
+#instagram li a:active {
+    color: yellow;
+}
+
+#instagram li a:visited {
+    color: black;
+}
+/*LINKS INSTAGRAM FIM*/
+
+/*LINKS TWITTER INICI0*/
+#twitter li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#twitter li a:hover {
+    color: red;
+}
+
+#twitter li a:focus {
+    color: violet;
+}
+
+#twitter li a:active {
+    color: yellow;
+}
+
+#twitter li a:visited {
+    color: black;
+}
+/*LINKS TWITTER FIM*/
+
+/*LINKS TIKTOK INICI0*/
+#tiktok li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#tiktok li a:hover {
+    color: red;
+}
+
+#tiktok li a:focus {
+    color: violet;
+}
+
+#tiktok li a:active {
+    color: yellow;
+}
+
+#tiktok li a:visited {
+    color: black;
+}
+/*LINKS TIKTOK FIM*/
+
+/*LINKS PINTEREST INICI0*/
+#pinterest li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#pinterest li a:hover {
+    color: red;
+}
+
+#pinterest li a:focus {
+    color: violet;
+}
+
+#pinterest li a:active {
+    color: yellow;
+}
+
+#pinterest li a:visited {
+    color: black;
+}
+/*LINKS PINTEREST FIM*/
+
+/*LINKS PINTEREST INICI0*/
+#pinterest li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#pinterest li a:hover {
+    color: red;
+}
+
+#pinterest li a:focus {
+    color: violet;
+}
+
+#pinterest li a:active {
+    color: yellow;
+}
+
+#pinterest li a:visited {
+    color: black;
+}
+/*LINKS PINTEREST FIM*/
+
+/*LINKS LINKEDIN INICI0*/
+#linkedin li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#linkedin li a:hover {
+    color: red;
+}
+
+#linkedin li a:focus {
+    color: violet;
+}
+
+#linkedin li a:active {
+    color: yellow;
+}
+
+#linkedin li a:visited {
+    color: black;
+}
+/*LINKS LINKEDIN FIM*/
+
+/*LINKS GITHUB INICI0*/
+#github li a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#github li a:hover {
+    color: red;
+}
+
+#github li a:focus {
+    color: violet;
+}
+
+#githubli a:active {
+    color: yellow;
+}
+
+#github li a:visited {
+    color: black;
+}
+/*LINKS GITHUB FIM*/
