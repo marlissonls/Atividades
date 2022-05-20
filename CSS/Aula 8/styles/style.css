@@ -1,0 +1,275 @@
+
+
+h1,h2,p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+article {
+    height: 260vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content:space-around;
+}
+
+#header {
+    width:40%;
+    
+    display: block;
+    align-self: center;
+}
+
+#imagebox {
+    width: 500px;
+    height: 500px;
+    border: solid 10px black;
+    border-radius: 15px;
+
+    align-self: center;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+}
+
+.content1 {
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+
+.content2 {
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+
+.screen {
+    width: 250px;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 15px;
+}
+
+.content1 .screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.content2 .screen {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    width: 30px;
+    background-color: rgb(180, 0, 0);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* Ajuste da primeira tela */
+#b1 {
+    height: 30px;
+}
+
+#b2 {
+    height: 50px;
+}
+
+#b3 {
+    height: 70px;
+}
+
+#screen1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* Fim ajuste da primeira tela */
+
+/* Ajuste da segunda tela */
+#b4 {
+    height: 30px;
+}
+
+#b5 {
+    height: 50px;
+}
+
+#b6 {
+    height: 70px;
+}
+
+#screen2 {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* Fim ajuste da primeira tela */
+
+/* Ajuste da terceira tela */
+#b7 {
+    height: 30px;
+}
+
+#b8 {
+    height: 50px;
+}
+
+#b9 {
+    height: 70px;
+}
+
+#screen3 {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+/* Fim ajuste da terceira tela */
+
+/* Ajuste da quarta tela */
+
+#b10 {
+    height: 30px;
+}
+
+#b11 {
+    height: 50px;
+}
+
+#b12 {
+    height: 70px;
+}
+
+#screen4 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Fim ajuste da quarta tela */
+
+/* Ajuste da quinta tela */
+#b13 {
+    height: 30px;
+}
+
+#b14 {
+    height: 50px;
+}
+
+#b15 {
+    height: 70px;
+}
+
+#screen5 {
+    justify-content: center;
+    align-items: center;
+}
+/* Fim ajuste da quinta tela */
+
+
+/* Ajuste da sexta tela */
+#b16 {
+    height: 30px;
+}
+
+#b17 {
+    height: 50px;
+}
+
+#b18 {
+    height: 70px;
+}
+
+#screen6 {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* Fim ajuste da sexta tela */
+
+/* Ajuste da setima tela */
+#b19 {
+    height: 30px;
+}
+
+#b20 {
+    height: 50px;
+}
+
+#b21 {
+    height: 70px;
+}
+
+#screen7 {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* Fim ajuste da setima tela */
+
+/* Ajuste da oitava tela */
+#b22 {
+    height: 30px;
+}
+
+#b23 {
+    height: 50px;
+}
+
+#b24 {
+    height: 70px;
+}
+
+#screen8 {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+/* Fim ajuste da oitava tela */
+
+/* Ajuste da nona tela */
+
+#b25 {
+    height: 30px;
+}
+
+#b26 {
+    height: 50px;
+}
+
+#b27 {
+    height: 70px;
+}
+
+#screen9 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Fim ajuste da nona tela */
+
+/* Ajuste da decima tela */
+#b28 {
+    height: 30px;
+}
+
+#b29 {
+    height: 50px;
+}
+
+#b30 {
+    height: 70px;
+}
+
+#screen10 {
+    justify-content: center;
+    align-items: center;
+}
+/* Fim ajuste da decima tela */h1,h2,p {
+    font-family: Arial, Helvetica, sans-serif;
+}
