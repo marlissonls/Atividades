@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 h1,h2,p {
     font-family: Arial, Helvetica, sans-serif;
@@ -80,196 +84,39 @@ img {
 }
 
 /* Ajuste da primeira tela */
-#b1 {
+#b1,#b4,#b7,#b10,#b13,#b16,#b19,#b22,#b25,#b28 {
     height: 30px;
 }
 
-#b2 {
+#b2,#b5,#b8,#b11,#b14,#b17,#b20,#b23,#b26,#b29 {
     height: 50px;
 }
 
-#b3 {
+#b3,#b6,#b9,#b12,#b15,#b18,#b21,#b24,#b27,#b30 {
     height: 70px;
 }
 
-#screen1 {
+#screen1,#screen6 {
     justify-content: flex-start;
     align-items: flex-start;
 }
-/* Fim ajuste da primeira tela */
 
-/* Ajuste da segunda tela */
-#b4 {
-    height: 30px;
-}
-
-#b5 {
-    height: 50px;
-}
-
-#b6 {
-    height: 70px;
-}
-
-#screen2 {
+#screen2,#screen7 {
     justify-content: flex-end;
     align-items: flex-start;
 }
-/* Fim ajuste da primeira tela */
 
-/* Ajuste da terceira tela */
-#b7 {
-    height: 30px;
-}
-
-#b8 {
-    height: 50px;
-}
-
-#b9 {
-    height: 70px;
-}
-
-#screen3 {
+#screen3,#screen8 {
     justify-content: flex-start;
     align-items: flex-end;
 }
-/* Fim ajuste da terceira tela */
 
-/* Ajuste da quarta tela */
-
-#b10 {
-    height: 30px;
-}
-
-#b11 {
-    height: 50px;
-}
-
-#b12 {
-    height: 70px;
-}
-
-#screen4 {
+#screen4,#screen9 {
     justify-content: flex-end;
     align-items: flex-end;
 }
-/* Fim ajuste da quarta tela */
 
-/* Ajuste da quinta tela */
-#b13 {
-    height: 30px;
-}
-
-#b14 {
-    height: 50px;
-}
-
-#b15 {
-    height: 70px;
-}
-
-#screen5 {
+#screen5,#screen10 {
     justify-content: center;
     align-items: center;
-}
-/* Fim ajuste da quinta tela */
-
-
-/* Ajuste da sexta tela */
-#b16 {
-    height: 30px;
-}
-
-#b17 {
-    height: 50px;
-}
-
-#b18 {
-    height: 70px;
-}
-
-#screen6 {
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-/* Fim ajuste da sexta tela */
-
-/* Ajuste da setima tela */
-#b19 {
-    height: 30px;
-}
-
-#b20 {
-    height: 50px;
-}
-
-#b21 {
-    height: 70px;
-}
-
-#screen7 {
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-/* Fim ajuste da setima tela */
-
-/* Ajuste da oitava tela */
-#b22 {
-    height: 30px;
-}
-
-#b23 {
-    height: 50px;
-}
-
-#b24 {
-    height: 70px;
-}
-
-#screen8 {
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-/* Fim ajuste da oitava tela */
-
-/* Ajuste da nona tela */
-
-#b25 {
-    height: 30px;
-}
-
-#b26 {
-    height: 50px;
-}
-
-#b27 {
-    height: 70px;
-}
-
-#screen9 {
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-/* Fim ajuste da nona tela */
-
-/* Ajuste da decima tela */
-#b28 {
-    height: 30px;
-}
-
-#b29 {
-    height: 50px;
-}
-
-#b30 {
-    height: 70px;
-}
-
-#screen10 {
-    justify-content: center;
-    align-items: center;
-}
-/* Fim ajuste da decima tela */h1,h2,p {
-    font-family: Arial, Helvetica, sans-serif;
 }
