@@ -1,0 +1,115 @@
+/* AQUI COMEÇA AS DEMAIS DEMONSTRAÇÕES COMO: align content ; flex-basis ; flex-grow ; flex-flow */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+
+#nowrap {
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+#nowrap div {
+    width: 100px;
+    height: 100px;
+}
+
+
+#aligncontent {
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#aligncontent div {
+    width: 100px;
+    height: 100px;
+}
+
+
+#flexbasis {
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+#flexbasis div {
+    flex-basis: 75px;
+}
+  
+#flexbasis div:nth-of-type(2) {
+    flex-basis: 150px;
+}
+
+
+#flexgrow {
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#flexgrow div {
+    flex-grow: 1;
+}
+
+#flexgrow div:nth-of-type(2) {
+    flex-grow: 2;
+}
+
+
+#flexshrink {
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#flexshrink div {
+    height: 200px;
+}
+
+#flexshrink div:nth-of-type(2) {
+    flex-shrink: 2;
+}
