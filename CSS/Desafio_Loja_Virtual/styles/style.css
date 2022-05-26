@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#presentation {
+    width: 100%;
+    height: 710px;
+
+    background-image: url(../assets/images/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation h2 {
+    font-size: 100px;
+    font-weight: 100;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0,0,0,0.65);
+    position: fixed;
+    color:white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 70px;
+    font-size: 35px;
+}
+
+#logo span {
+    color: rgb(162,156,156);
+}
+
+header .helpdiv {
+    display: flex;
+}
+
+nav {
+    width: 500px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#cart {
+    width: 100px;
+    margin-right: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cart img {
+    height: 25px;
+}
+
+#social {
+    height: 215px;
+    width: 100px;
+    background-color: rgb(0,0,0,0.5);
+    position: fixed;
+    top: 255px;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#social img {
+    height: 30px;
+}
+
+#releases {
+    width: 100%;
+    display: flex;
+}
+
+#buydiv {
+    width: 50%;
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#buydiv h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+#buydiv p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+#bag1 {
+    width: 50%;
+}
+
+#bag1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#bagsphotos {
+    width: 100%;
+    height: 506px;
+    display: flex;
+}
+
+#photobag1 {
+    width: 33.33%;
+    background-image: url(../assets/images/photobag1.png);
+    background-repeat: no-repeat;
+
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photobag1:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../assets/images/photobag1.png);
+    background-repeat: no-repeat;
+    
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+#photobag2 {
+    width: 33.33%;
+    background-image: url(../assets/images/photobag2.png);
+    background-repeat: no-repeat;
+
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photobag2:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../assets/images/photobag2.png);
+    background-repeat: no-repeat;
+    
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+#photobag3 {
+    width: 33.34%;
+    background-image: url(../assets/images/photobag3.png);
+    background-repeat: no-repeat;
+
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photobag3:hover {
+    background-image: linear-gradient(to bottom, rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)), url(../assets/images/photobag3.png);
+    background-repeat: no-repeat;
+    
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+#saleoff {
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlesub {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#titlesub h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+#titlesub p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+#offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONTINUAR SECTION SALEOFF*/
+
+#aboutus {
+    height: 650px;
+}
+
+#aboutus img{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: -1;
+}
+
+#aboutustext {
+    width: 50%;
+    height: inherit;
+    background-color: rgba(50, 50, 50, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutustext div {
+    width: 60%;
+    margin-left: 120px;
+}
+
+#aboutustext h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+
+#aboutustext p {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+#contact {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+#form {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#form div {
+    width: 80%;
+    margin-right: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#form input {
+    width: 390px;
+    height: 40px;
+    margin: 2px;
+    padding: 3px 15px;
+}
+
+#form input:hover {
+    border: solid 3px rgb(162,156,156);
+}
+
+#form textarea {
+    width: 390px;
+    height: 130px;
+    margin: 2px;
+    padding: 15px 15px;
+}
+
+#form textarea:hover {
+    border: solid 3px rgb(162,156,156);
+
+}
+
+::placeholder {
+    color: rgb(162,156,156);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form button {
+    width: 130px;
+    height: 40px;
+    border: solid 2px white;
+    background-color: black;
+    margin: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+#form button:hover {
+    border: solid 3px rgb(162,156,156);
+    color: rgb(162,156,156);
+}
+
+#asidetext {
+    width: 50%;
+}
+
+#asidetext div {
+    width: 60%;
+    margin-left: 60px;
+}
+
+#asidetext h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+
+#asidetext p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+#newsletter {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+#newsletter h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+#newsletter p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
