@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>green.s delivery</title>
+</head>
+<body>
+    <div id="topbar">DELIVERY (11) 3456-7890</div>
+    <header>
+        <div id="logo">
+            <img src="./assets/images/logo.svg">
+            <div id="logotext">
+                <p>green.s</p>
+                <p>DELIVERY</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#slideshow">INÍCIO</a></li>
+                <li><a href="#menu">CARDÁPIO</a></li>
+                <li><a href="#kits">KITS</a></li>
+                <li><a href="#depositions">DEPOIMENTOS</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+            </ul>
+        </nav>
+        <div id="login">
+            <img src="./assets/images/user.svg">
+            <p>Log In</p>
+        </div>
+    </header>
+    <main>
+        <!--SLIDE SHOW INICIO-->
+        <section class="slideshow">
+            <div class="mySlides fade">
+                <img src="./assets/images/capresesalad.webp">
+                <div class="textsalad">
+                    <h2>SALADA CAPRESE</h2>
+                    <p>
+                        A salada clássica italiana com uma deliciosa combinação 
+                        do tomate fresco com mussarela de búfala e rúcula.
+                    </p>
+                    <hr>
+                    <div class="btn-1">
+                        <p>PEÇA AGORA</p>
+                        <p>❯</p>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./assets/images/greensalad.webp">
+                <div class="textsalad">
+                    <h2>SALADA VERDE</h2>
+                    <p>
+                        Uma das saladas mais pedidas pelos nossos clientes,
+                        faça já o seu pedido e saboreie esta maravilhosa salada!
+                    </p>
+                    <hr>
+                    <div class="btn-1">
+                        <p>PEÇA AGORA</p>
+                        <p>❯</p>
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./assets/images/parmsalad.webp">
+                <div class="textsalad">
+                    <h2>SALADA DE PARMA</h2>
+                    <p>
+                        A mistura de presunto de Parma com rúcula e tomate cereja 
+                        faz deste prato um verdadeiro encanto, experimente!
+                    </p>
+                    <hr>
+                    <div class="btn-1">
+                        <p>PEÇA AGORA</p>
+                        <p>❯</p>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            
+            <div class="btn-2">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </section><!--SLIDE SHOW FIM-->
+
+        <section id="menu">
+            
+        </section>
+
+        <section id="kits">
+
+        </section>
+
+        <section id="depositions">
+
+        </section>
+    </main>
+    
+    <footer>
+        <div id="contact">
+
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html>
