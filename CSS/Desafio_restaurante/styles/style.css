@@ -25,7 +25,11 @@
 }
 
 body {
-    background-color: rgb(247,247,247);
+    background-image: url(../assets/images/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 
 #topbar {
@@ -142,27 +146,30 @@ nav ul li a:hover {
 }
 
 /*SLIDESHOW INICIO*/
-.slideshow {
+#slideshow {
     width: 100%;
-    height: auto;
     margin-top: 110px;
+    background-color:rgb(247, 247, 247);
 }
 
-img {
+#slideshow img {
     width: 100%;
 }
 
 .prev, .next {
   cursor: pointer;
+
   position: absolute;
-  top: 40%;
+  top: 50%;
+
   width: auto;
-  margin:0 50px;
+  margin: 0 50px;
+
   color: white;
   font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+
+  transition: 0.6s ease;
 }
 
 /* Position the "next button" to the right */
@@ -176,6 +183,7 @@ img {
     height: 300px;
     background-color: rgb(237,52,120);
     padding: 8px 25px;
+    
     position: absolute;
     z-index: 1;
     top: 300px;
@@ -236,7 +244,7 @@ hr {
 
     position: absolute;
     z-index: 1;
-    bottom: 50px;
+    bottom: 20px;
     left: 48%;
 }
 
@@ -269,8 +277,10 @@ hr {
 
 /*SEÇÃO CARDÁPIO*/
 #menu {
-    margin-top: 100px;
+    padding-top: 100px;
     width: 100%;
+
+    background-color:rgb(247, 247, 247);
     
     display: flex;
 }
@@ -279,9 +289,13 @@ hr {
     width: 50%;
 }
 
+#menu .imagem img {
+    width: 100%;
+}
+
 #menu .halfscreen {
     width: 50%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,3 +340,166 @@ hr {
     background-color: rgb(146, 11, 83);
     transition: .5s;
 }
+/*SEÇÃO CARDÁPIO FIM*/
+/*SEÇÃO KITS INICIO*/
+#kits {
+    padding-top: 100px;
+    width: 100%;
+
+    background-color:rgb(247, 247, 247);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#kitdescription {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#kits p:first-of-type {
+    font-family: "Mr Eaves XL Bold";
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+#kits p:last-of-type {
+    font-family: "Mr Eaves XL Light";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#kits #twokits {
+    width: 60%;
+    padding-bottom: 150px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#kitveg, #kitfit {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#kitfit p:first-of-type, #kitveg p:first-of-type {
+    font-family: "Mr Eaves XL Bold";
+    font-size: 16px;
+    color: rgb(237,52,120);
+    letter-spacing: 3px;
+}
+
+#kitveg img, #kitfit img {
+    width: 60px;
+}
+
+#kitveg p:nth-of-type(2), #kitfit p:nth-of-type(2) {
+    font-family: "Mr Eaves XL Light";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#kitveg p:nth-of-type(3), #kitfit p:nth-of-type(3) {
+    font-family: "Mr Eaves XL Bold";
+    font-size: 16px;
+}
+
+#kitveg li, #kitfit li {
+    font-family: "Mr Eaves XL Light";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#kitveg p:nth-of-type(4), #kitfit p:nth-of-type(4) {
+    font-family: "Mr Eaves XL Bold";
+    font-size: 16px;
+}
+
+#kitveg p:nth-of-type(5), #kitfit p:nth-of-type(5) {
+    font-family: "Mr Eaves XL Bold";
+    font-size: 14px;
+    color: white;
+
+    padding: 12px 80px;
+    background-color: rgb(237,52,120);
+    transition: .5s;
+}
+
+#kitveg p:nth-of-type(5):hover, #kitfit p:nth-of-type(5):hover {
+    background-color: rgb(146, 11, 83);
+    transition: .5s;
+}
+
+#depositions {
+    margin-top: 450px;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(44,199,84);
+}
+
+footer {
+    height: 210px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 30px;
+
+    font-family: "Mr Eaves XL Light";
+}
+
+#contact {
+    width: auto;
+    height: 130px;
+    background-color: white;
+
+    margin: 0 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .block {
+    height: 50px;
+    border-right: solid 1px black;
+    padding: 0 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+#contact .block:last-of-type {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contact .block img {
+    width: 30px;
+    margin: 0 5px 0;
+}
+
+footer #rodape {
+    text-align: center;
+    margin-top: 15px;
+}
+
